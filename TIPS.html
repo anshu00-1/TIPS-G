@@ -1,0 +1,748 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIPS-G</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="TIPS.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <style>
+    .modal-backdrop.fade{
+      z-index: 0 !important;
+    }
+  </style>
+</head>
+<body style="background-color: whitesmoke;">
+    <section>
+      <nav class="navbar navbar-expand-lg bg-light w-100" style="padding: 0px;position: fixed; top: 0%;z-index:69;border: none;">
+        <div class="container-fluid" style="background-color: rgba(46,38,109,255);">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <label class="hamburger">
+              <input type="checkbox">
+              <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+              </svg>
+            </label>
+          </button>
+          <img src="New folder/3[2].png" width="124px">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0" style="font-size: large; text-align: center;">
+              <li class="nav-item" style="color: white;">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(0, 15, 5);">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bbb" style="color: white;">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;"  id="nnn">
+                  <p data-toggle="modal" data-target="#exampleModal" style="color: white;">Enroll Now</p>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="backdrop-filter: blur(8px);">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section>
+          <header>Enrollment Form</header>
+          <form class="form" action="#">
+              <div class="input-box" style="text-align: left;">
+                  <label>Full Name</label>
+                  <input required="" placeholder="Enter full name" type="text" style="font-size: 20px;border: 1px solid;">
+              </div>
+              <div class="column">
+                  <div class="input-box" style="text-align: left;">
+                    <label>Phone Number</label>
+                    <input required="" placeholder="Enter phone number" type="number" style="font-size: 20px;border: 1px solid;">
+                  </div>
+              </div>
+              <div class="column">
+                <div class="input-box" style="text-align: left;">
+                  <label>Birth Date</label>
+                  <input required="" placeholder="Enter birth date" type="date" style="font-size: 20px;border: 1px solid;">
+                </div>
+              </div>
+              <br>
+              <div class="gender-box">
+                <label>Gender</label>
+                <div class="gender-option" style="display: flex;justify-content: space-around;">
+                  <div class="gender">
+                    <input checked="" name="gender" id="check-male" type="radio">
+                    <label for="check-male">Male</label>
+                  </div>
+                  <div class="gender">
+                    <input name="gender" id="check-female" type="radio">
+                    <label for="check-female">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-box address">
+                <div class="column">
+                <input required="" placeholder="Enter your city" type="text" style="font-size: 20px;border: 1px solid;">
+                </div>
+              </div>
+              <button style="font-size: 20px;background-color: white;color: rgb(0, 0, 0);">Submit</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Scholarships </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aaa" style="color: white;">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ccc" style="color: white;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  <div class="container" style="margin-top: 100px;">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12" style="margin: 20px 0px;margin-top: 100px;">
+        <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
+          <div> 
+            <h2 style="font-size: 40px;">Welcome to <span style="color: blue;">Tips-G Alwar</span></h2>
+            <div class="typewriter-container">
+              <span>Learn: </span>
+              <span id="typewriter-text" class="typewriter-text" style="color: blue;"></span>
+            </div>
+          
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const texts = ["Data Science", "Web Development", "AI | ML","Cybersecurity"];
+                let index = 0;
+                const typewriterElement = document.getElementById('typewriter-text');
+          
+                function typeNextText() {
+                  const currentText = texts[index];
+                  typeText(currentText, 0);
+                }
+          
+                function typeText(text, i) {
+                  if (i < text.length) {
+                    typewriterElement.textContent += text.charAt(i);
+                    setTimeout(() => typeText(text, i + 1), 50);
+                  } else {
+                    setTimeout(() => deleteText(text, text.length - 1), 2000);
+                  }
+                }
+          
+                function deleteText(text, i) {
+                  if (i >= 0) {
+                    typewriterElement.textContent = text.substring(0, i);
+                    setTimeout(() => deleteText(text, i - 1), 50);
+                  } else {
+                    index = (index + 1) % texts.length;
+                    setTimeout(typeNextText, 50);
+                  }
+                }
+          
+                typeNextText();
+              });
+            </script>
+            <p style="font-size: 18px;">Confused on which course to take? We have got you covered. Browse courses and find out the best course for you. Its free! Or Talk to our experts</p>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <a href="#bbb" style="text-decoration: none;"><button class="button" style="margin-top: 40px;">
+                  Explore Courses
+                </button></a>
+             </div>
+             <div class="col-lg-6 col-md-6 col-sm-12">
+              <button class="button" style="margin-top: 40px;">
+                Talk To Expert
+              </button>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12" style="margin: 20px 0px;">
+        <img src="2.png" width="100%" style="border-radius: 10%;">
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <div>
+          <p style="color: black;font-family: Arial, Helvetica, sans-serif;font-size: 20px;">Join Us</p>
+          <p style="font-size: 25px;">Embark on a journey of growth and success with TIPS-G. Unlock a world of opportunities and take the first
+            step towards a fulfilling career with our esteemed programs. Join us to gain practical skills, recognized
+            degrees, and the confidence to achieve your professional aspirations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12" style="background-color: rgba(456,38,109,255);color: white;padding: 80px 0px;text-align: center;">
+        <img src="New folder/2.2.jpg" width="60px">
+        <h2 style="display: flex;justify-content: center;">Our mission</h2>
+        <p style="font-size: 19px;padding: 50px;">At TIPS-G, our mission is to revolutionize education byproviding students with the practical skills and knowledgethey need to thrive in today's competitive job market. Webelieve in an education system that goes beyondtextbooks, focusing on hands-on experience and industry-relevant training to ensure our students are fully preparedfor their professional journeys.</p>
+      </div>
+      <div class="col-lg-6 col-sm-12" style="background-color: rgba(255,214,201,255);padding: 80px 0px;text-align: center;">
+        <img src="New folder/2.2.jpg" width="60px">
+        <h2 style="display: flex;justify-content: center;">Our vision</h2>
+        <p style="font-size: 19px;padding: 50px;">Crucial to establishing credibility and trust is a good track record. Talk about your journey so far and the work you have accomplished. How much of your mission and vision have come to fruition? What obstacles have you hurdled and what wins have you celebrated? Your story can inspire others to join in achieving your goals faster.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="curriculum-new-6f914b26691ca88c90c9123325f93f37cdf499326f9bf3bde9b97a8dc4fb563f.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>Future-Proof Curriculum</h3>
+            <p>Designed in Collaboration with Top Engineering Leaders</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="bag-new-d18ce8874e97e0bfd195708f4427a350c8162ffc8a444689f4aa6d85168624bf.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>Personal 1:1 Mentorship</h3>
+            <p>Monthly 1:1 career guidance with Industry Experts to ensure success</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="mentors.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>Learn by Building Products</h3>
+            <p>Build 50+ Real-World products that mimic engineering challenges</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="product.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>1-Year Industry Internship</h3>
+            <p>Get real-world industry experience with 1-Year Compulsory Internship</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="peers.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>Top Instructors</h3>
+            <p>Daily classes from Instructors who have built FB Messenger, Uber, and more</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="margin-top: 40px;">
+          <div class="card-header" style="text-align: center;border: none;">
+            <img src="instructor.svg">
+          </div>
+          <div class="card-body" style="text-align: center;border: none;">
+            <h3>Excellent Peer Group</h3>
+            <p>Spend 4 years with elite peers to grow 1% better everyday.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 style="text-align: center;margin-top: 80px;color: black;">Join Our <span style="color: blue;">Exclusive Courses</span></h1>
+  <p style="text-align: center;font-size: large;">Join our courses to learn from Industry Experts and get the complete corporate industry Experience</p>
+  <div class="container-fluid" style="background-color: rgba(46,38,109,255);;padding: 40px;" id="bbb">
+    <div class="row" style="margin: 80px 0px 40px 0px;">
+      <div class="col-lg-4 col-sm-6" style="margin: 20px 0px;">
+         <div class="card" style="border-radius: 20px;">
+          <div class="card-header" style="padding: 0px;border: none;">
+            <img src="New folder/1.png" width="100%" height="auto" style="border-radius: 20px 20px 0px 0px;">
+          </div>
+          <div class="card-body">
+            <h2 style="text-align: left;">Data Science</h2>
+            <p style="text-align: left;">Become an expert at drawingintelligence from data and getnoticed by top companies.</p>
+            <a href="http://127.0.0.1:5500/data%20science.html"><button class="btnc"> Explore More</button></a>
+          </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6" style="margin: 20px 0px;">
+        <div class="card" style="border-radius: 20px;">
+         <div class="card-header" style="padding: 0px;border: none;">
+           <img src="New folder/6.png" width="100%" height="auto" style="border-radius: 20px 20px 0px 0px;">
+         </div>
+         <div class="card-body">
+           <h2 style="text-align: left;">Cyber Security</h2>
+           <p style="text-align: left;">Learn how to Protect digital assets and ensure the security of critical information online.</p>
+           <a href="http://127.0.0.1:5500/Cyber%20Security.html"><button class="btnc"> Explore More</button></a>
+         </div>
+        </div>
+     </div>
+     <div class="col-lg-4 col-sm-6" style="margin: 20px 0px;">
+      <div class="card" style="border-radius: 20px;">
+       <div class="card-header" style="padding: 0px;border: none;">
+         <img src="New folder/10.png" width="100%" height="auto" style="border-radius: 20px 20px 0px 0px;">
+       </div>
+       <div class="card-body">
+         <h2 style="text-align: left;">Software development</h2>
+         <p style="text-align: left;">Master the art of coding anddevelopment, transforming ideasinto powerful software solutions.</p>
+         <a href="http://127.0.0.1:5500/Software%20Development.html"><button class="btnc"> Explore More</button></a>
+       </div>
+      </div>
+   </div> 
+   <div style="display: flex;justify-content: center;margin-top: 80px;">
+    <a href="http://127.0.0.1:5500/all%20courses.html" style="text-decoration: none;">
+          <button class="animated-button">
+      <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+        ></path>
+      </svg>
+      <span class="text" style="color: white;">Explore all courses</span>
+      <span class="circle"></span>
+      <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+        ></path>
+      </svg>
+    </button>
+    </a>    
+   </div>
+    </div>
+  </div>
+
+  <div class="container" style="background:linear-gradient(90deg,rgba(46,38,109,255),rgb(188, 211, 238),rgba(46,38,109,255));padding:50px 50px;border-radius: 50px;margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 style="color: black;">Discover And Know Our Students.</h1>
+        <p>Get to know about the expirence and the knowledge staright from our students</p>
+        <a href="http://127.0.0.1:5500/students.html" style="text-decoration: none;">
+          <button class="cssbuttons-io-button">
+          Let's Go
+          <div class="icon">
+            <svg
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </button></a>       
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-12" style="text-align: center;">
+        <p style="font-size: 35px;font-weight: 600;">Unlocking Diverse Career Opportunities</p>
+        <p style="font-size: 24px;">Upon completing your education from the Scaler School of Technology, you'll emerge well-prepared for the tech industry, armed with essential skills for success.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: rgba(46,38,109,255);margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-12" style="padding: 80px 0px;">
+        <div class="page">
+          <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1">
+            <input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
+            <label for="tab1" style="width: 300px;font-size: 20px;text-align: center;">Placement</label>
+            
+            <input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
+            <label for="tab2" style="width: 300px;font-size: 20px;text-align: center;">Paid Internship</label>
+            
+            <ul class="uu">
+              <li class="tab-content tab-content-first typography">
+                <p style="font-size: 20px;">Placement</p>
+                <ul>
+                  <li style="font-size: 18px;"><b>900+ career partners:</b> Giving students the choice of a stellar line-up to start their career!</li>
+                  <li style="font-size: 18px;"><b>100% placement assistance:</b> Dedicated career support and guidance to help students land at Top Tech Companies</li>
+                  <li style="font-size: 18px;"><b>100+ career specialists:</b> To ensure personal attention for CV building & interview preparation tips</li>
+                </ul>
+              </li>
+              
+              <li class="tab-content tab-content-2 typography">
+                <p style="font-size: 20px;">Paid Internship</p>
+                <ul>
+                  <li style="font-size: 18px;"><b>Higher Likelihood of Full-Time Job Offers:</b> Studies show that paid internships are 32% to 52% more likely to result in a full-time job offer compared to unpaid internships. This suggests that paying interns attracts and retains top talent</li>
+                  <li style="font-size: 18px;"><b>Valuable Practical Experience:</b> Paid internships allow students to apply the knowledge and skills they've learned in college to real-world scenarios. This hands-on experience is crucial for personal and professional development.</li>
+                  <li style="font-size: 18px;"><b>Enhanced Employer and Student Success:</b> Paid internships benefit both students and employers by providing a platform for mutual growth and success. Students gain valuable insights and mentorship, while companies benefit from fresh perspectives and contributions.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="margin-top: 80px;background-color: rgb(206, 208, 199);padding: 40px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <p style="font-size: 30px;text-align: left;">Still Not Sure about what to do?<br><span style="font-size: 20px;">wan to know more? get in touch with us... by clicking on the button below</span></p>
+        <button class="aa" style="font-size: 17px;color: white;background-color:  rgba(46,38,109,255);">Connect to a mentor</button>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="card" style="text-align: center;font-size: 20px;">
+          <div class="card-header" style="background-color:  rgba(46,38,109,255);padding: 10px 0px;color: white;">Announcements</div>
+          <div class="card-body">
+            <ul style="line-height: 60px;">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-footer" style="padding: 10px 0px;"><a href="..." style="text-decoration: none;">Check more</a></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <div class="card" style="text-align: center;font-size: 20px;">
+          <div class="card-header" style="background-color:  rgba(46,38,109,255);padding: 10px 0px;color: white;">Events and News</div>
+          <div class="card-body">
+            <ul style="line-height: 60px;">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-footer" style="padding: 10px 0px;"><a href="..." style="text-decoration: none;">Check more</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="margin-top: 80px;background-color: rgba(46,38,109,255);">
+    <div class="row">
+      <div class="col-lg-12" style="text-align: center;padding: 40px;">
+        <p style="font-size: 40px;color: white;">Take the first step towards becoming a part of the top tech geeks in the country become the best developer out there with us....</p>
+        <div style="display: flex;justify-content: center;">
+            <button class="bb">
+              Apply Now
+              <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                <path
+                  clip-rule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid" style="margin-top: 40px;" id="aaa">
+      <div class="row">
+          <div class="col-lg-12" style="padding: 40px;">
+            <p style="font-size: xx-large;">Frequently Asked Questions</p>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                              <a class="first" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="a">
+                                  What is TIPSG?
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                              <p style="text-align: left;">Lorem , iaculis ex. Nulla vitae ipsum diam. Pellentesque vitae metus vitae massa egestas posuere. Mauris ultricies vehicula tempor. Pellentesque justo turpis, blandit nec ex eu, tempus placerat diam. Morbi a felis commodo eros consectetur rhoncus sed eget lectus. Praesent non erat vehic</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="a">
+                                Can these courses be clubbed with a degree like BCA or B.Tech?
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                              <p style="text-align: left;">Yes, some courses can be clubbed with BCA and some with B.Tech.</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="a">
+                                What is the duration of the courses?
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                              <p style="text-align: left;">The duration varies depending on the course, typically spanning from 6 months to 2 years. For our 1-year courses, we provide a 6-month paid internship, while our 2-year courses come with a 1-year paid internship. Therefore, the overall duration will be 1.5 years for the former and 3 years for the latter.</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingfour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour" id="a">
+                              Are the courses available online or offline?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                        <div class="panel-body">
+                            <p style="text-align: left;">We provide offline learning modes for students to gain hands-on experience through live projects.</p>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingfive">
+                      <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive" id="a">
+                            Is there any financial assistance available?
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                      <div class="panel-body">
+                          <p style="text-align: left;">Yes, we provide various scholarship options and installment plans.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingsix">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix" id="a">
+                          Do you provide certification after course completion?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                    <div class="panel-body">
+                        <p style="text-align: left;">Yes, you will receive a certification upon successful completion of the course.</p>
+                    </div>
+                </div>
+            </div>
+  
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingseven">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven" id="a">
+                      Can I get a refund if I don’t like the services?
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
+                <div class="panel-body">
+                    <p style="text-align: left;">If you decide to withdraw yourself from this program within 10 days. You can get a refund of 50% on yearly paid fee.</p>
+                </div>
+            </div>
+        </div>
+  
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingeight">
+              <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeight" aria-expanded="false" aria-controls="collapseeight" id="a">
+                    Can I get a demo?
+                  </a>
+              </h4>
+          </div>
+          <div id="collapseeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingeight">
+              <div class="panel-body">
+                  <p style="text-align: left;">Sorry, we can't provide you demo service but we can show you the classrooms. And you can also meet a few of our students for your satisfaction.</p>
+              </div>
+          </div>
+      </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <img src="New folder/11.png" width="100%">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container-fluid" style="margin-top: 80px;background-color: rgba(46,38,109,255);">
+      <div class="row" style="padding: 40px 0px;">
+        <div class="col-lg-5 col-md-5 col-sm-12" style="border-right: 2px solid rgba(255, 255, 255, 0.515);">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.2775517745197!2d76.6133210083295!3d27.56812600971925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972996b6552a23f%3A0xb608655eec77e71c!2sTipsG-alwar!5e1!3m2!1sen!2sin!4v1721293878734!5m2!1sen!2sin" width="100%" height="250" style="border:0;border-radius: 30px;margin: 20px 0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <ul class="example-2" style="list-style: none;">
+            <li class="icon-content">
+              <a
+                href="https://in.linkedin.com/in/tips-g-alwar-51a35a310"
+                aria-label="LinkedIn"
+                data-social="linkedin"
+              >
+                <div class="filled"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-linkedin"
+                  viewBox="0 0 16 16"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <div class="tooltip">LinkedIn</div>
+            </li>
+            <li class="icon-content">
+              <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+                <div class="filled"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <div class="tooltip">GitHub</div>
+            </li>
+            <li class="icon-content">
+              <a
+                href="https://www.instagram.com/tipsgalwar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                aria-label="Instagram"
+                data-social="instagram"
+              >
+                <div class="filled"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <div class="tooltip">Instagram</div>
+            </li>
+            <li class="icon-content">
+              <a href="https://www.youtube.com/channel/UCmPnhtzDABZvltohoz9Lbpw" aria-label="Youtube" data-social="youtube">
+                <div class="filled"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-youtube"
+                  viewBox="0 0 16 16"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <div class="tooltip">Youtube</div>
+            </li>
+          </ul>
+          <div style="display: flex;justify-content: space-evenly;margin-top: 20px;">
+            <a href="" style="text-decoration: none;"><p style="color: white;font-size: larger;">Privacy Policy</p></a>
+            <a href="" style="text-decoration: none;"><p style="color: white;font-size: larger;">Terms and Conditions</p></a>
+            <a href="" style="text-decoration: none;"><p style="color: white;font-size: larger;">Refund Policy</p></a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12">
+          <img src="New folder/3[1].png" width="124px" style="padding-bottom: 40px;">
+                  <div>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p style="font-size:x-large;color: white;text-align: left;">Our Address</p>
+                          <p style="color: white;text-align: left;">1ST FLOOR
+                            SHRI HARI LAXMI TOWER
+                            BHAGAT SINGH CIRCLE ALWAR, RAJASTHAN</p>
+                            <hr>
+                            <p style="font-size:x-large;color: white;text-align: left;" id="ccc">Contact Us</p>
+                            <p style="font-size:large;color: white;text-align: left;"><strong> E-mail:- </strong> tipsgalwar@gmail.com</p>
+                            <hr>
+                            <p style="font-size:large;color: white;text-align: left;"><strong>Contact Number:- </strong></p>
+                            <a href="tel:+91 8890007427" style="text-decoration: none;"><p style="font-size:large;color: white;text-align: left;">+91 8890007427</p></a>
+                            <a href="tel:+91 8890007536" style="text-decoration: none;"><p style="font-size:large;color: white;text-align: left;">+91 8890007536</p></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                          <p style="font-size: x-large;color: white;text-align: left;">Our Courses</p>
+                          <hr>
+                          <ul style="list-style: none;font-size: large;text-align: left;color: white;line-height: 30px;padding: 0px;">
+                            <a href="http://127.0.0.1:5500/data%20science.html" style="text-decoration: none;color: white;"><li>Data Science</li></a>
+                            <a href="http://127.0.0.1:5500/artificial%20intelegence.html" style="text-decoration: none;color: white;"><li>Artificial intelegence/machine learning</li></a>
+                            <a href="http://127.0.0.1:5500/Blockchaindev.html" style="text-decoration: none;color: white;"><li>Blockchain development</li></a>
+                            <a href="http://127.0.0.1:5500/Digital%20marketing.html" style="text-decoration: none;color: white;"><li>Digital marketing</li></a>
+                            <a href="http://127.0.0.1:5500/Cyber%20Security.html" style="text-decoration: none;color: white;"><li>Cyber Secutiry</li></a>
+                            <a href="http://127.0.0.1:5500/Software%20Development.html" style="text-decoration: none;color: white;"><li>Software Development</li></a>
+                            <a href="http://127.0.0.1:5500/Devops.html" style="text-decoration: none;color: white;"><li>DevOps</li></a>
+                            <a href="http://127.0.0.1:5500/Cloud%20Computing.html" style="text-decoration: none;color: white;"><li>Cloud Computing</li></a>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: rgba(46, 38, 109, 0.927);">
+    <div class="row">
+      <div class="col-lg-12">
+        <p style="font-size: 15px;color: white;margin: 40px 0px;display: flex;justify-content: center;">Designed & Developed by :- <span style="font-family: cursive;color: navajowhite;">AYUSH TAXAK</span></p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>
